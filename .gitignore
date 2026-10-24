@@ -1,0 +1,21 @@
+# Virtual environments & Python cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+*.exe
+
+# Editor / CLI folders
+.antigravitycli/
+.vscode/
+.idea/
+
+# Sensitive passport images and extracted CSV data
+Files/*.jpg
+Files/*.jpeg
+Files/*.png
+Cleaned_Passport_Data.csv
