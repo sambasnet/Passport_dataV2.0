@@ -14,8 +14,9 @@ A fast, accurate command-line utility that scans passport images (`.jpg`/`.jpeg`
   - Removes residual OCR repeat artifacts from Given Names and Surnames.
   - Parses 6-digit MRZ dates (`YYMMDD`) into `DD-MM-YYYY` with century disambiguation for birth dates.
   - Calculates the **Issue Date** automatically (`Expiration Date - 10 years + 1 day`), including leap-year (`29-02`) handling.
+- **Strict MRZ Validation & Unextracted Files Summary**: Validates check digits, dates, and MRZ scores (`>= 60`) before saving so corrupted or unreadable images never insert invalid rows into `Cleaned_Passport_Data.csv`, and displays a formatted summary table of any unextracted files at the end of the run.
 - **Excel-Ready CSV Export**: Outputs UTF-8 with BOM (`utf-8-sig`) so Microsoft Excel opens `Cleaned_Passport_Data.csv` cleanly on Windows.
-- **Standalone Executable Support**: Can be run directly via Python or packaged into a standalone Windows executable (`dist/main.exe`) with PyInstaller.
+- **Standalone Executable Support**: Can be run directly via Python or packaged into a standalone Windows executable (`main.exe` / `dist/main.exe`) with PyInstaller, pausing before exit so you can review the terminal summary.
 
 ---
 
