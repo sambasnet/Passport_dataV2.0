@@ -19,3 +19,16 @@ Files/*.jpg
 Files/*.jpeg
 Files/*.png
 Cleaned_Passport_Data.csv
+
+# --- Linux port additions ---
+final*/
+out*/
+batch*/
+work/
+*.json
+!src/fixtures/*.json
+__pycache__/
+*.pyc
+report_out/
+_passport_exceptions_*.csv
+_passport_review_*.md
