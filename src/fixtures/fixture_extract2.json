@@ -1,0 +1,136 @@
+[
+  {
+    "source_message_id": "FIXTURE0000000001",
+    "original_filename": "fixture-passport-01.pdf",
+    "file_sha256": "fixturehash0000000000000000000000000000",
+    "chat": "Deepak Verma, EA",
+    "received_at": "2026-10-28 13:33:31+05:30",
+    "status": "ok",
+    "front_image": "/tmp/stage1out/TESTNAME_front.jpg",
+    "mrz": {
+      "line1": "P<INDTEST<<TESTNAME<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "line2": "P9999999<9IND7307236M34120421070426541824<08",
+      "score": 3,
+      "checks": [
+        "passport_no",
+        "dob",
+        "expiry",
+        "composite_BAD"
+      ]
+    },
+    "fields": {
+      "passport_no": "P9999999",
+      "surname": "TESTNAME",
+      "given_names": "TESTNAME",
+      "nationality": "IND",
+      "sex": "M",
+      "dob": "23-07-1973",
+      "expiry": "04-12-2034",
+      "issue_date": "05-12-2024",
+      "issue_date_source": "derived"
+    },
+    "visual_zone": {
+      "passport_no": "P9999999"
+    },
+    "notes": []
+  },
+  {
+    "source_message_id": "TESTMASTER00001",
+    "original_filename": "ABDUL QADIR scan.pdf",
+    "file_sha256": "aaaa1111bbbb2222",
+    "chat": "Eventss Abode + TTP",
+    "received_at": "2026-11-01 10:00:00+05:30",
+    "status": "ok",
+    "mrz": {
+      "line1": "P<INDTEST<<TESTNAME<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "line2": "P5555555<9IND9003075M3208226<<<<<<<<<<<<<<04",
+      "score": 4,
+      "checks": [
+        "passport_no",
+        "dob",
+        "expiry",
+        "composite"
+      ]
+    },
+    "fields": {
+      "passport_no": "P5555555",
+      "surname": "QADIR",
+      "given_names": "ABDUL",
+      "nationality": "IND",
+      "sex": "M",
+      "dob": "07-03-1990",
+      "expiry": "22-08-2032",
+      "issue_date": "23-08-2022",
+      "issue_date_source": "printed"
+    },
+    "visual_zone": {
+      "passport_no": "P5555555",
+      "issue_date": "23-08-2022"
+    },
+    "notes": []
+  },
+  {
+    "source_message_id": "TESTVALIDSHORT1",
+    "original_filename": "Short Validity Passport.pdf",
+    "file_sha256": "cccc3333dddd4444",
+    "chat": "Eventss Abode + TTP",
+    "received_at": "2026-11-01 10:10:00+05:30",
+    "status": "ok",
+    "mrz": {
+      "line1": "P<INDTEST<<TESTNAME<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "line2": "P4444444<5IND9501013P6666666<<<<<<<<<<<<<<02",
+      "score": 4,
+      "checks": [
+        "passport_no",
+        "dob",
+        "expiry",
+        "composite"
+      ]
+    },
+    "fields": {
+      "passport_no": "P4444444",
+      "surname": "SINGH",
+      "given_names": "KULDEEP",
+      "nationality": "IND",
+      "sex": "M",
+      "dob": "01-01-1995",
+      "expiry": "19-01-2027",
+      "issue_date": "20-01-2017",
+      "issue_date_source": "derived"
+    },
+    "visual_zone": {},
+    "notes": []
+  },
+  {
+    "source_message_id": "TESTDUPE000001",
+    "original_filename": "Passport Resend.pdf",
+    "file_sha256": "eeee5555ffff6666",
+    "chat": "Deepak Verma, EA",
+    "received_at": "2026-11-01 10:20:00+05:30",
+    "status": "ok",
+    "mrz": {
+      "line1": "P<INDTEST<<TESTNAME<<<<<<<<<<<<<<<<<<<<<<<<<<",
+      "line2": "P9999999<9IND7307236M34120421070426541824<08",
+      "score": 3,
+      "checks": [
+        "passport_no",
+        "dob",
+        "expiry",
+        "composite_BAD"
+      ]
+    },
+    "fields": {
+      "passport_no": "P9999999",
+      "surname": "TESTNAME",
+      "given_names": "TESTNAME",
+      "nationality": "IND",
+      "sex": "M",
+      "dob": "23-07-1973",
+      "expiry": "04-12-2034",
+      "issue_date": "05-12-2024",
+      "issue_date_source": "derived"
+    },
+    "visual_zone": {},
+    "notes": []
+  }
+]
